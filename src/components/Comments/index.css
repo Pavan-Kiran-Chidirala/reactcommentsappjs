@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  font-family: 'Roboto';
+  padding: 60px;
+}
+
+.main-heading {
+  color: #1e293b;
+  font-size: 52px;
+}
+
+.inner-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.element-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.name-field {
+  width: 280px;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: #cbd2d9;
+  outline: none;
+}
+.comment-field {
+  width: 280px;
+  height: 100px;
+  font-family: 'Roboto';
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: #cbd2d9;
+  border-width: 2px;
+  outline: none;
+}
+
+::placeholder {
+  color: #475569;
+}
+
+.btn {
+  background-color: #0284c7;
+  border-style: none;
+  border-radius: 2px;
+  color: #dee0e3;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+  width: 110px;
+}
+
+.image1 {
+  width: 400px;
+  height: 300px;
+}
+
+.comments-count {
+  color: #334155;
+  font-size: 14px;
+}
+
+hr {
+  background-color: #cbd2d9;
+  opacity: 0.5;
+  width: 88vw;
+  margin-left: 0;
+}
+
+.number-count {
+  color: white;
+  padding: 6px;
+  background-color: #0284c7;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.comment-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .main-container {
+    padding: 40px;
+  }
+  hr {
+    width: 80vw;
+  }
+
+  .inner-holder {
+    flex-wrap: wrap;
+  }
+
+  .element-holder {
+    order: 1;
+  }
+  .image1 {
+    order: 0;
+    width: 300px;
+    height: 200px;
+  }
+}

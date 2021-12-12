@@ -1,0 +1,142 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90vw;
+}
+
+.content-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.user-icon {
+  padding: 10px;
+  width: 38px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.sub-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.name-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.username {
+  color: #1e293b;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.time-now {
+  color: #94a3b8;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.comment-line {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.icons-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.like-btn {
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  margin-right: 10px;
+}
+
+.image2 {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+}
+
+.icon-name {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.del-image {
+  width: 20px;
+  height: 20px;
+}
+
+.del-btn {
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+.sky-blue {
+  color: #0ea5e9;
+}
+
+@media screen and (max-width: 576px) {
+  .comment-item {
+    width: 75vw;
+  }
+}
